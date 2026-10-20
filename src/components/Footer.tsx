@@ -30,6 +30,9 @@ export default function Footer() {
           <p className="kicker">Zone Rouge</p>
           <ul>
             <li>
+              <Link href="/drive">Dossier Drive</Link>
+            </li>
+            <li>
               <Link href="/a-propos">À propos</Link>
             </li>
             <li>
@@ -50,7 +53,7 @@ export default function Footer() {
       <div className="footer-giant" aria-hidden>
         <Logo size={1} />
       </div>
-      <p className="footer-legal">© 2026 Zone Rouge — Tous droits réservés</p>
+      <p className="footer-legal">© 2026 Zone Rouge · Tous droits réservés</p>
     </footer>
   );
 }

@@ -16,7 +16,7 @@ const mono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"], weigh
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Le média auto, moto et sport mécanique`,
+    default: `${SITE_NAME} : le média auto, moto et sport mécanique`,
     template: `%s | ${SITE_NAME}`,
   },
   description:

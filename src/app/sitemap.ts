@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { ARTICLES, CATEGORY_ORDER, SITE_URL } from "@/data/articles";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["", "/a-propos", ...CATEGORY_ORDER.map((c) => `/${c}`)].map((p) => ({
+  const pages = ["", "/drive", "/a-propos", ...CATEGORY_ORDER.map((c) => `/${c}`)].map((p) => ({
     url: `${SITE_URL}${p}`,
     changeFrequency: "daily" as const,
     priority: p === "" ? 1 : 0.8,

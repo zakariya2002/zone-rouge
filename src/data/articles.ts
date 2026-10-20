@@ -5,6 +5,7 @@ import { articles as electrique } from "./electrique";
 import { articles as guides } from "./guides";
 import { articles as sport } from "./sport";
 import { articles as pratique } from "./pratique";
+import { articles as drive } from "./drive";
 
 export type { Article, Category } from "./types";
 
@@ -22,12 +23,16 @@ export const CATEGORIES: Record<Category, { label: string; color: string; taglin
 
 export const CATEGORY_ORDER = Object.keys(CATEGORIES) as Category[];
 
-export const ARTICLES: Article[] = [...auto, ...moto, ...electrique, ...guides, ...sport, ...pratique].sort(
+export const ARTICLES: Article[] = [...auto, ...moto, ...electrique, ...guides, ...sport, ...pratique, ...drive].sort(
   (a, b) => b.date.localeCompare(a.date),
 );
 
 export function getArticle(slug: string) {
   return ARTICLES.find((a) => a.slug === slug);
+}
+
+export function byTag(tag: string) {
+  return ARTICLES.filter((a) => a.tags?.includes(tag));
 }
 
 export function byCategory(category: Category) {

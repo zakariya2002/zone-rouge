@@ -15,6 +15,7 @@ export type Article = {
   image: string; // https://images.unsplash.com/photo-<id>?w=1600&q=80
   imageAlt: string;
   imagePosition?: string;
+  heroLayout?: "split"; // portrait photos: image on the right, text on the left
   author: string;
   date: string; // ISO yyyy-mm-dd
   readTime: number;
@@ -23,5 +24,6 @@ export type Article = {
   seoTitle?: string;
   seoDescription?: string;
   keywords?: string[];
+  people?: { name: string; jobTitle?: string; sameAs?: string[] }[];
   body: Block[];
 };

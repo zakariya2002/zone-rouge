@@ -4,7 +4,7 @@ import { ARTICLES, CATEGORIES, CATEGORY_ORDER, byCategory } from "@/data/article
 
 export default function Home() {
   const featured = ARTICLES.filter((a) => a.featured);
-  const lead = featured[0] ?? ARTICLES[0];
+  const lead = featured.find((a) => a.heroLayout !== "split") ?? ARTICLES[0];
   const side = ARTICLES.filter((a) => a !== lead).slice(0, 4);
   const used = new Set([lead, ...side].map((a) => a.slug));
   const guide = byCategory("guides").find((a) => a.featured && !used.has(a.slug)) ?? byCategory("guides")[0];

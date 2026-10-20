@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/[category]">): Pr
   const cat = CATEGORIES[category];
   return {
     title: `${cat.label} : actualité, analyses et conseils`,
-    description: `${cat.label} sur Zone Rouge — ${cat.tagline} Tous nos articles, guides et décryptages.`,
+    description: `${cat.label} sur Zone Rouge. ${cat.tagline} Tous nos articles, guides et décryptages.`,
     alternates: { canonical: `/${category}` },
   };
 }

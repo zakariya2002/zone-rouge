@@ -8,6 +8,7 @@ import {
   SITE_NAME,
   SITE_URL,
   byCategory,
+  byTag,
   formatDate,
   getArticle,
 } from "@/data/articles";
@@ -50,8 +51,10 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
   if (!article) notFound();
 
   const cat = CATEGORIES[article.category];
+  const isDrive = article.tags?.includes("drive") ?? false;
+  const dossier = isDrive ? byTag("drive").filter((a) => a.slug !== article.slug) : [];
   const sameCat = byCategory(article.category).filter((a) => a.slug !== article.slug);
-  const sidebar = sameCat.slice(0, 5);
+  const sidebar = (dossier.length ? dossier : sameCat).slice(0, 5);
   const more = ARTICLES.filter((a) => a.category !== article.category).slice(0, 3);
 
   const jsonLd = {
@@ -68,6 +71,19 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
     keywords: article.keywords?.join(", "),
     author: { "@type": "Person", name: article.author },
     publisher: { "@type": "NewsMediaOrganization", name: SITE_NAME, url: SITE_URL },
+    ...(article.people && { about: article.people.map((p) => ({ "@type": "Person", ...p })) }),
+    ...(isDrive && {
+      mentions: [
+        {
+          "@type": "Organization",
+          name: "Drive (Drivecar.io)",
+          alternateName: ["Drive", "Drivecar.io", "Drive franchise"],
+          url: "https://drivefranchise.com/",
+          sameAs: ["https://www.linkedin.com/company/drivecar-io/"],
+          founder: { "@type": "Person", name: "Qassim Rouahi" },
+        },
+      ],
+    }),
   };
 
   return (
@@ -76,7 +92,7 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <header className="post-hero">
+      <header className={`post-hero ${article.heroLayout === "split" ? "post-hero--split" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={article.image} alt={article.imageAlt} style={{ objectPosition: article.imagePosition }} />
         <div className="post-hero-inner">
@@ -126,6 +142,15 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
                 return <p key={i}>{b.text}</p>;
             }
           })}
+          {isDrive && (
+            <aside className="post-crosslink">
+              <p className="kicker">À lire aussi</p>
+              <p>
+                Retrouvez notre dossier sur Drive et Qassim Rouahi, ainsi que les portraits publiés par{" "}
+                <a href="https://le-canard-dechaine.vercel.app/drive">Le Canard Déchaîné</a>.
+              </p>
+            </aside>
+          )}
           {article.tags && (
             <p className="post-tags">
               {article.tags.map((t) => (
@@ -135,12 +160,12 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
           )}
         </div>
         <aside className="post-aside">
-          <p className="kicker">Aussi en {cat.label}</p>
+          <p className="kicker">{dossier.length ? "Dossier Drive" : `Aussi en ${cat.label}`}</p>
           {sidebar.map((a) => (
             <Card key={a.slug} article={a} variant="row" />
           ))}
-          <Link href={`/${article.category}`} className="btn btn--ghost">
-            Toute la rubrique
+          <Link href={dossier.length ? "/drive" : `/${article.category}`} className="btn btn--ghost">
+            {dossier.length ? "Tout le dossier Drive" : "Toute la rubrique"}
           </Link>
         </aside>
       </div>

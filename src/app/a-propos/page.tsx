@@ -20,7 +20,7 @@ export default function About() {
       <p>Une idée de sujet, une remarque, un partenariat ? Le formulaire de contact arrive très bientôt.</p>
       <h2 id="mentions">Mentions légales</h2>
       <p>
-        Zone Rouge — publication en ligne. Les photographies d’illustration proviennent d’Unsplash et sont
+        Zone Rouge, publication en ligne. Les photographies d’illustration proviennent d’Unsplash et sont
         utilisées conformément à sa licence.
       </p>
     </section>
