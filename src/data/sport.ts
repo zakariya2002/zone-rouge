@@ -9,7 +9,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1774487671647-613e738aa000?w=1600&q=80",
     "imageAlt": "Monoplace de Formule 1 lancée à pleine vitesse le long d’un muret de stands",
     "author": "Julien Marchetti",
-    "date": "2026-07-02",
+    "date": "2026-03-12",
     "readTime": 6,
     "featured": true,
     "tags": [
@@ -94,7 +94,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1543061647-e034089f6a2b?w=1600&q=80",
     "imageAlt": "Monoplace blanche et rouge dans la voie des stands, entourée de mécaniciens et de racks de pneus",
     "author": "Claire Dubreuil",
-    "date": "2026-07-09",
+    "date": "2022-04-07",
     "readTime": 5,
     "tags": [
       "formule 1",
@@ -171,7 +171,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1775647733227-81681766ff4e?w=1600&q=80",
     "imageAlt": "Vue de face d’une Formule 1 historique rouge et blanche des années 1980",
     "author": "Antoine Lefèvre",
-    "date": "2026-07-16",
+    "date": "2026-05-19",
     "readTime": 6,
     "tags": [
       "formule 1",
@@ -248,7 +248,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1775433379543-238757074bdc?w=1600&q=80",
     "imageAlt": "Deux motos de course inclinées dans un virage serré bordé de vibreurs rouges et blancs",
     "author": "Sophie Garnier",
-    "date": "2026-07-22",
+    "date": "2024-03-05",
     "readTime": 5,
     "tags": [
       "motogp",
@@ -325,7 +325,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1548504240-3dd72f99dc72?w=1600&q=80",
     "imageAlt": "Voiture de rallye soulevant un nuage de poussière sur une piste en terre bordée d’arbres",
     "author": "Mathieu Roussel",
-    "date": "2026-07-28",
+    "date": "2023-03-14",
     "readTime": 5,
     "tags": [
       "rallye",
@@ -402,7 +402,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1780306446645-e73e20f74fa7?w=1600&q=80",
     "imageAlt": "Voiture de rallye historique blanche aux couleurs vintage garée devant un paysage de montagne",
     "author": "Antoine Lefèvre",
-    "date": "2026-08-04",
+    "date": "2022-06-21",
     "readTime": 6,
     "tags": [
       "rallye",
@@ -479,7 +479,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1529954223331-4be3b228703a?w=1600&q=80",
     "imageAlt": "Gros plan sur la roue avant et la carrosserie bleue d’un prototype d’endurance",
     "author": "Julien Marchetti",
-    "date": "2026-08-11",
+    "date": "2023-06-06",
     "readTime": 6,
     "featured": true,
     "tags": [
@@ -557,7 +557,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1786718845237-1b00937b0f49?w=1600&q=80",
     "imageAlt": "Voiture de course phares allumés sur un circuit plongé dans la nuit",
     "author": "Claire Dubreuil",
-    "date": "2026-08-18",
+    "date": "2025-06-10",
     "readTime": 5,
     "tags": [
       "endurance",
@@ -633,7 +633,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1601884760942-87a26d18ce15?w=1600&q=80",
     "imageAlt": "Camion de rallye-raid aux couleurs vives soulevant un nuage de sable dans le désert",
     "author": "Mathieu Roussel",
-    "date": "2026-08-25",
+    "date": "2024-01-09",
     "readTime": 6,
     "tags": [
       "dakar",
@@ -710,7 +710,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1505570554449-69ce7d4fa36b?w=1600&q=80",
     "imageAlt": "Deux jeunes pilotes de karting casqués au coude-à-coude sur une piste extérieure",
     "author": "Sophie Garnier",
-    "date": "2026-09-01",
+    "date": "2022-09-06",
     "readTime": 5,
     "tags": [
       "karting",
@@ -793,7 +793,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1779128773539-cd8147c94715?w=1600&q=80",
     "imageAlt": "Deux rangées de karts de compétition alignés sur la piste avant le départ",
     "author": "Mathieu Roussel",
-    "date": "2026-09-04",
+    "date": "2024-07-25",
     "readTime": 5,
     "tags": [
       "karting",
@@ -873,7 +873,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1758739956757-c697fd0585bc?w=1600&q=80",
     "imageAlt": "Courbe d’un circuit automobile en asphalte bordée de vibreurs sous un ciel nuageux",
     "author": "Julien Marchetti",
-    "date": "2026-09-10",
+    "date": "2023-08-31",
     "readTime": 6,
     "tags": [
       "circuits",
@@ -950,7 +950,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1761335284674-0fb01d5bb4cd?w=1600&q=80",
     "imageAlt": "Pilote de course en combinaison ajustant son casque intégral avant de prendre la piste",
     "author": "Claire Dubreuil",
-    "date": "2026-09-15",
+    "date": "2022-11-24",
     "readTime": 6,
     "tags": [
       "securite",
@@ -1027,7 +1027,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1774088249014-b0d7d907ad16?w=1600&q=80",
     "imageAlt": "Mécaniciens penchés sur le moteur d’une voiture de course orange dans un garage",
     "author": "Élodie Fontaine",
-    "date": "2026-09-19",
+    "date": "2025-02-25",
     "readTime": 6,
     "tags": [
       "metiers",
@@ -1109,7 +1109,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1771440571270-e27b63085a48?w=1600&q=80",
     "imageAlt": "Pilote installé dans un simulateur de course avec volant et plusieurs écrans",
     "author": "Antoine Lefèvre",
-    "date": "2026-09-24",
+    "date": "2025-10-30",
     "readTime": 5,
     "tags": [
       "sim racing",
@@ -1192,7 +1192,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1542550546-88afdd84b64f?w=1600&q=80",
     "imageAlt": "Pilote de motocross en plein saut au-dessus d’une piste de terre devant des spectateurs",
     "author": "Sophie Garnier",
-    "date": "2026-09-29",
+    "date": "2025-04-03",
     "readTime": 5,
     "tags": [
       "motocross",
@@ -1269,7 +1269,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1565266753449-de6e38b0f9c3?w=1600&q=80",
     "imageAlt": "Voiture de rallye jaune lancée sur une route étroite bordée d’un talus rocheux",
     "author": "Élodie Fontaine",
-    "date": "2026-10-03",
+    "date": "2023-10-17",
     "readTime": 5,
     "tags": [
       "rallye",
@@ -1346,7 +1346,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1758739956760-c51ceafe0fcd?w=1600&q=80",
     "imageAlt": "Silhouette d’une pilote casquée en combinaison, à contre-jour dans la lumière du soleil",
     "author": "Claire Dubreuil",
-    "date": "2026-10-08",
+    "date": "2024-11-07",
     "readTime": 6,
     "tags": [
       "sport auto feminin",
@@ -1423,7 +1423,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1557775692-91fa57f514a6?w=1600&q=80",
     "imageAlt": "Virage de circuit bordé de rails de sécurité et de vibreurs, piste humide",
     "author": "Mathieu Roussel",
-    "date": "2026-10-13",
+    "date": "2026-07-02",
     "readTime": 5,
     "tags": [
       "reglement",
@@ -1507,7 +1507,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1614949194403-9602bdc14a3a?w=1600&q=80",
     "imageAlt": "Monoplace de formule de promotion en piste devant des dégagements peints en bleu et rouge",
     "author": "Julien Marchetti",
-    "date": "2026-10-18",
+    "date": "2026-09-29",
     "readTime": 6,
     "tags": [
       "monoplace",

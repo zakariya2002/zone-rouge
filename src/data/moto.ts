@@ -9,7 +9,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1508357941501-0924cf312bbd?w=1600&q=80",
     "imageAlt": "Roadster noir stationné au bord d’une route sous un ciel nuageux",
     "author": "Julien Marchetti",
-    "date": "2026-07-02",
+    "date": "2022-02-08",
     "readTime": 6,
     "tags": [
       "permis a2",
@@ -86,7 +86,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1611004061856-ccc3cbe944b2?w=1600&q=80",
     "imageAlt": "Motard portant un casque intégral noir à visière fumée",
     "author": "Claire Delorme",
-    "date": "2026-07-08",
+    "date": "2022-04-21",
     "readTime": 5,
     "tags": [
       "équipement",
@@ -167,7 +167,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1600705722908-bab1e61c0b4d?w=1600&q=80",
     "imageAlt": "Motard casqué assis sur sa moto dans une rue en ville",
     "author": "Antoine Verdier",
-    "date": "2026-07-13",
+    "date": "2024-02-27",
     "readTime": 5,
     "tags": [
       "airbag",
@@ -239,7 +239,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=1600&q=80",
     "imageAlt": "Roadster sombre arrêté au milieu d’une route forestière",
     "author": "Maxime Roussel",
-    "date": "2026-07-19",
+    "date": "2022-06-14",
     "readTime": 5,
     "tags": [
       "entretien",
@@ -321,7 +321,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=1600&q=80",
     "imageAlt": "Moto sportive orange et blanche garée sur un parking, roues bien visibles",
     "author": "Maxime Roussel",
-    "date": "2026-07-24",
+    "date": "2024-04-04",
     "readTime": 5,
     "tags": [
       "pneus",
@@ -394,7 +394,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981033-0f0309284409?w=1600&q=80",
     "imageAlt": "Moto noire au design moderne exposée devant un mur grillagé",
     "author": "Sophie Lambert",
-    "date": "2026-07-30",
+    "date": "2025-01-28",
     "readTime": 5,
     "tags": [
       "contrôle technique",
@@ -476,7 +476,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1515777315835-281b94c9589f?w=1600&q=80",
     "imageAlt": "Moto custom américaine à réservoir cuivré garée devant un mur de pierre",
     "author": "Antoine Verdier",
-    "date": "2026-08-04",
+    "date": "2026-02-19",
     "readTime": 6,
     "tags": [
       "harley-davidson",
@@ -553,7 +553,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1531327431456-837da4b1d562?w=1600&q=80",
     "imageAlt": "Moto BMW à moteur boxer préparée en café racer sur une route bordée d’arbres",
     "author": "Julien Marchetti",
-    "date": "2026-08-10",
+    "date": "2023-10-05",
     "readTime": 6,
     "tags": [
       "bmw",
@@ -630,7 +630,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=1600&q=80",
     "imageAlt": "Café racer noir stationné sur une petite route en forêt",
     "author": "Claire Delorme",
-    "date": "2026-08-16",
+    "date": "2023-03-09",
     "readTime": 6,
     "featured": true,
     "tags": [
@@ -714,7 +714,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1622185135505-2d795003994a?w=1600&q=80",
     "imageAlt": "Moto classique au phare rond et réservoir rouge sous un ciel d’orage",
     "author": "Sophie Lambert",
-    "date": "2026-08-21",
+    "date": "2024-06-20",
     "readTime": 5,
     "tags": [
       "néo-rétro",
@@ -786,7 +786,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981359-219d6364c9c8?w=1600&q=80",
     "imageAlt": "Motard roulant dans une rue urbaine bordée de graffitis",
     "author": "Maxime Roussel",
-    "date": "2026-08-27",
+    "date": "2023-05-30",
     "readTime": 5,
     "tags": [
       "ville",
@@ -868,7 +868,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981001-5864b3250a69?w=1600&q=80",
     "imageAlt": "Deux-roues stationné dans une rue urbaine ensoleillée devant un mur tagué",
     "author": "Claire Delorme",
-    "date": "2026-09-02",
+    "date": "2024-09-10",
     "readTime": 5,
     "tags": [
       "scooter",
@@ -944,7 +944,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981420-87aa9dad1c89?w=1600&q=80",
     "imageAlt": "Motard prenant un virage sur une route de montagne sinueuse",
     "author": "Julien Marchetti",
-    "date": "2026-09-07",
+    "date": "2025-06-05",
     "readTime": 7,
     "featured": true,
     "tags": [
@@ -1028,7 +1028,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558979159-2b18a4070a87?w=1600&q=80",
     "imageAlt": "Motard assis sur sa moto custom face à un panorama de collines et de lac",
     "author": "Sophie Lambert",
-    "date": "2026-09-13",
+    "date": "2025-07-01",
     "readTime": 6,
     "tags": [
       "road trip",
@@ -1111,7 +1111,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1600&q=80",
     "imageAlt": "Motard sur une moto custom roulant sur une route au coucher du soleil",
     "author": "Antoine Verdier",
-    "date": "2026-09-18",
+    "date": "2022-09-29",
     "readTime": 5,
     "tags": [
       "culture",
@@ -1187,7 +1187,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558980395-be8a5fcb4251?w=1600&q=80",
     "imageAlt": "Motard équipé à côté d’une grande routière dans un paysage méditerranéen",
     "author": "Claire Delorme",
-    "date": "2026-09-24",
+    "date": "2023-07-13",
     "readTime": 5,
     "tags": [
       "duo",
@@ -1269,7 +1269,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1600&q=80",
     "imageAlt": "Moto électrique noire et orange stationnée devant un mur de carreaux",
     "author": "Antoine Verdier",
-    "date": "2026-09-29",
+    "date": "2026-04-28",
     "readTime": 6,
     "tags": [
       "électrique",
@@ -1345,7 +1345,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1580310614729-ccd69652491d?w=1600&q=80",
     "imageAlt": "Moto sportive verte et noire préparée pour la piste, garée en extérieur",
     "author": "Julien Marchetti",
-    "date": "2026-10-05",
+    "date": "2025-09-23",
     "readTime": 6,
     "tags": [
       "circuit",
@@ -1427,7 +1427,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1525013066836-c6090f0ad9d8?w=1600&q=80",
     "imageAlt": "Moto tout-terrain posée sur une piste désertique avec un casque sur le guidon",
     "author": "Maxime Roussel",
-    "date": "2026-10-11",
+    "date": "2026-06-11",
     "readTime": 6,
     "tags": [
       "trail",
@@ -1503,7 +1503,7 @@ export const articles: Article[] = [
     "image": "https://images.unsplash.com/photo-1558980663-3685c1d673c4?w=1600&q=80",
     "imageAlt": "Motarde aux cheveux longs sur une moto custom au bord d’une route au crépuscule",
     "author": "Sophie Lambert",
-    "date": "2026-10-17",
+    "date": "2026-10-08",
     "readTime": 5,
     "tags": [
       "motardes",

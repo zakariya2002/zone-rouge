@@ -9,7 +9,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80",
     imageAlt: "Conducteur au volant d’une voiture en ville, au crépuscule",
     author: "Claire Morvan",
-    date: "2026-07-01",
+    date: "2023-02-21",
     readTime: 5,
     tags: [
       "occasion",
@@ -91,7 +91,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1471444928139-48c5bf5173f8?w=1600&q=80",
     imageAlt: "Compacte sportive noire garée face à la mer au coucher du soleil",
     author: "Julien Barthès",
-    date: "2026-07-06",
+    date: "2026-04-09",
     readTime: 5,
     tags: [
       "golf gti",
@@ -163,7 +163,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1600&q=80",
     imageAlt: "SUV blanc stationné sur une route mouillée devant des montagnes enneigées",
     author: "Sophie Lemaire",
-    date: "2026-07-11",
+    date: "2022-11-08",
     readTime: 6,
     featured: true,
     tags: [
@@ -238,7 +238,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1600&q=80",
     imageAlt: "Coccinelle orange garée devant un immeuble moderne",
     author: "Antoine Deschamps",
-    date: "2026-07-16",
+    date: "2022-03-17",
     readTime: 5,
     tags: [
       "coccinelle",
@@ -311,7 +311,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=1600&q=80",
     imageAlt: "Porsche 911 blanche garée devant des montagnes enneigées",
     author: "Mathilde Roux",
-    date: "2026-07-21",
+    date: "2024-01-25",
     readTime: 5,
     tags: [
       "porsche",
@@ -384,7 +384,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1600&q=80",
     imageAlt: "Petite citadine bleu ciel garée devant une maison en pierre",
     author: "Nicolas Ferrand",
-    date: "2026-07-26",
+    date: "2025-05-22",
     readTime: 5,
     tags: [
       "fiat 500",
@@ -462,7 +462,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?w=1600&q=80",
     imageAlt: "Alignement de berlines anciennes des années 1970 et 1980 dans un hall lumineux",
     author: "Claire Morvan",
-    date: "2026-07-31",
+    date: "2023-04-06",
     readTime: 6,
     featured: true,
     tags: [
@@ -545,7 +545,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1600&q=80",
     imageAlt: "Berline sombre phares allumés sur une route au crépuscule",
     author: "Julien Barthès",
-    date: "2026-08-05",
+    date: "2022-09-13",
     readTime: 6,
     tags: [
       "malus",
@@ -628,7 +628,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1600&q=80",
     imageAlt: "Berline grise garée dans un parking sombre",
     author: "Sophie Lemaire",
-    date: "2026-08-10",
+    date: "2025-10-14",
     readTime: 6,
     tags: [
       "hybride",
@@ -710,7 +710,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1600&q=80",
     imageAlt: "Coupé sportif blanc au premier plan dans un garage, d’autres voitures sur des ponts élévateurs",
     author: "Antoine Deschamps",
-    date: "2026-08-15",
+    date: "2022-05-24",
     readTime: 5,
     tags: [
       "tuning",
@@ -782,7 +782,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1600&q=80",
     imageAlt: "Ford Mustang noire vue de face sur un parking sous un ciel nuageux",
     author: "Mathilde Roux",
-    date: "2026-08-20",
+    date: "2024-04-17",
     readTime: 5,
     tags: [
       "mustang",
@@ -856,7 +856,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=1600&q=80",
     imageAlt: "Muscle car rouge des années 1970 sur une route de colline ensoleillée",
     author: "Nicolas Ferrand",
-    date: "2026-08-25",
+    date: "2023-06-15",
     readTime: 6,
     tags: [
       "cinéma",
@@ -929,7 +929,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1542362567-b07e54358753?w=1600&q=80",
     imageAlt: "Supercar blanche stationnée devant des maisons en bois dans un village",
     author: "Claire Morvan",
-    date: "2026-08-30",
+    date: "2025-08-29",
     readTime: 5,
     tags: [
       "rassemblement",
@@ -1006,7 +1006,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1600&q=80",
     imageAlt: "Coupé bleu garé devant la façade grise d’un bâtiment",
     author: "Julien Barthès",
-    date: "2026-09-04",
+    date: "2024-07-09",
     readTime: 5,
     tags: [
       "sportive",
@@ -1083,7 +1083,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=1600&q=80",
     imageAlt: "Citadine bleue garée sur un parking en bord de route",
     author: "Antoine Deschamps",
-    date: "2026-09-09",
+    date: "2023-10-03",
     readTime: 6,
     tags: [
       "citadine sportive",
@@ -1161,7 +1161,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1600&q=80",
     imageAlt: "Supercar jaune garée dans une rue arborée",
     author: "Mathilde Roux",
-    date: "2026-09-14",
+    date: "2026-01-15",
     readTime: 5,
     tags: [
       "lamborghini",
@@ -1234,7 +1234,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=1600&q=80",
     imageAlt: "Grande berline blanche roulant sur une route enneigée bordée de sapins",
     author: "Sophie Lemaire",
-    date: "2026-09-19",
+    date: "2025-02-12",
     readTime: 6,
     tags: [
       "industrie",
@@ -1312,7 +1312,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?w=1600&q=80",
     imageAlt: "Phares allumés d’une voiture dans l’obscurité d’un tunnel éclairé de néons",
     author: "Nicolas Ferrand",
-    date: "2026-09-24",
+    date: "2024-11-28",
     readTime: 5,
     tags: [
       "design",
@@ -1384,7 +1384,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=1600&q=80",
     imageAlt: "Silhouette d’une berline éclairée par un trait de lumière dans l’obscurité",
     author: "Claire Morvan",
-    date: "2026-10-06",
+    date: "2026-06-23",
     readTime: 6,
     tags: [
       "constructeurs français",
@@ -1461,7 +1461,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600&q=80",
     imageAlt: "Berline sportive blanche roulant sur une route ensoleillée bordée de palmiers",
     author: "Antoine Deschamps",
-    date: "2026-10-19",
+    date: "2026-09-17",
     readTime: 6,
     tags: [
       "occasion",
