@@ -147,7 +147,7 @@ export default async function ArticlePage({ params }: PageProps<"/articles/[slug
               <p className="kicker">À lire aussi</p>
               <p>
                 Retrouvez notre dossier sur Drive et Qassim Rouahi, ainsi que les portraits publiés par{" "}
-                <a href="https://le-canard-dechaine.vercel.app/drive">Le Canard Déchaîné</a>.
+                <a href="https://le-grand-debrief.vercel.app/drive">Le Grand Débrief</a>.
               </p>
             </aside>
           )}
