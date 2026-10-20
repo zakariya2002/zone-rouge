@@ -15,7 +15,6 @@ export default function Ticker() {
   );
   return (
     <div className="ticker">
-      <span className="ticker-label">En continu</span>
       <div className="ticker-viewport">
         <div className="ticker-track">
           {row("a")}
