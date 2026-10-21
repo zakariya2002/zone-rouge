@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, JetBrains_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Ticker from "@/components/Ticker";
-import { ARTICLES, SITE_NAME, SITE_URL, formatDate } from "@/data/articles";
+import { SITE_NAME, SITE_URL } from "@/data/articles";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -28,8 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="fr" className={`${archivo.variable} ${mono.variable}`}>
       <body>
-        <Header today={`Mis à jour le ${formatDate(ARTICLES[0].date)}`} />
-        <Ticker />
+        <Header />
         <main>{children}</main>
         <Footer />
       </body>
