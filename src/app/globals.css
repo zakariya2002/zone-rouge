@@ -903,7 +903,15 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .block-head {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .block-head h2 {
+    font-size: min(9.5vw, 72px);
+    min-width: 0;
+  }
+  .catpage-head h1 {
+    font-size: min(9.5vw, 96px);
   }
   .block-head p {
     display: none;
